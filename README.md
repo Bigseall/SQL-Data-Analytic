@@ -1,4 +1,4 @@
-# SQL Sales Analysis & Customer Segmentation
+# SQL Data Analytic 
 
 ## 📌 Project Overview
 
