@@ -42,13 +42,14 @@ This project answers the following business questions:
 
 B2C customers are segmented into five groups based on customer lifespan and total revenue.
 
-| Customer Rank | Condition                                |
-| ------------- | ---------------------------------------- |
-| Platinum      | At least 12 months and spending > 10,000 |
-| Gold          | At least 12 months and spending > 5,000  |
-| Silver        | At least 12 months and spending > 1,000  |
-| Bronze        | At least 12 months and spending <= 1,000 |
-| New Customer  | Lifespan < 12 months                     |
+| Customer Rank       | Condition                                |
+| ------------------- | -----------------------------------------|
+| Platinum            | At least 6 months and spending > 10,000  |
+| Gold                | At least 6 months and spending > 5,000   |
+| Silver              | At least 6 months and spending > 1,000   |
+| Bronze              | At least 6 months and spending <= 1,000  |
+| New Customer        | Lifespan < 6 months                      |
+| One Time Purchased  | First_Order_Date = Last_Order_Date       |
 
 ---
 
