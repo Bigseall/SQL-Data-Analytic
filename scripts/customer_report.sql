@@ -39,11 +39,12 @@ select
 	case 
 		when Ter in ('Northwest','Northeast','Central','Southwest','Southeast') then 'United States'
 		else Ter end as Country,
-	case when life_span < 12 then 'New Customer'
-		 when life_span >= 12 and Total_revenue > 10000 then 'Platinum'
-		 when life_span >= 12 and Total_revenue > 5000 then 'Gold'
-		 when life_span >= 12 and Total_revenue > 1000 then 'Silver'
-		 else 'Bronze' end as Customer_rank,
+	case when First_Order_Date=Last_Order_Date then 'One Time Purchased'
+	 	 when life_span < 6 then 'New Customer'
+	 	 when life_span >= 6 and Total_revenue > 10000 then 'Platinum'
+	 	 when life_span >= 6 and Total_revenue > 5000 then 'Gold'
+	 	 when life_span >= 6 and Total_revenue > 1000 then 'Silver'
+	 	 else 'Bronze' end as Customer_rank,
 	Total_revenue,
 	Total_Orders,
 	round(Total_revenue / Total_Orders, 2) as Avg_Order_Value,
