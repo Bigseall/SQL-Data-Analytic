@@ -4,7 +4,7 @@
 
 This project analyzes sales and customer data from the AdventureWorks database using SQL Server.
 The goal is to explore sales performance, customer purchasing behavior, product performance, and customer segmentation through SQL-based analysis.
-The project focuses on transforming raw transactional data into meaningful business metrics that can support sales and customer-related decisions.
+The project focuses on transforming raw transactional data into meaningful business metrics that can support sales and customer-related decisions.The final metrics are visualized through an interactive Power BI dashboard to explore customer segments, revenue trends, and key business insights.
 
 ---
 
