@@ -156,10 +156,3 @@ to visualize customer segmentation and revenue insights.
 - Customer detail table with drill-down
 
 ---
-
-## 🛠️ Tools & Environment
-* **Database Engine:** SQL Server (AdventureWorks2025)
-* **Language:** T-SQL (Transact-SQL)
-* **IDE:** SQL Server Management Studio (SSMS)
-
----
