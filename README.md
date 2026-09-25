@@ -1,4 +1,4 @@
-# SQL Data Analytic 
+# SQL Data Analytic And Customer Dashboard
 
 ## 📌 Project Overview
 
@@ -138,6 +138,26 @@ The view contains:
 * Customer Lifespan
 
 This view can be used as a foundation for further customer analysis or dashboard development.
+
+---
+
+## 📊 Power BI Dashboard
+<img width="1054" height="592" alt="picdash" src="https://github.com/user-attachments/assets/b43a248b-e21e-40fa-a984-cd77b29cc21e" />
+
+[#-power-bi-dashboard](#-power-bi-dashboard)
+
+A Power BI dashboard was built on top of `Sales.vCustomerSummaryReport` 
+to visualize customer segmentation and revenue insights.
+
+**Includes:**
+- KPI cards: Total Revenue, Total Orders, Total Customers, Avg Lifespan
+- Customer distribution by rank (Platinum / Gold / Silver / Bronze / 
+  New Customer / One Time Purchased)
+- Revenue by country
+- New customers trend by month
+- Customer detail table with drill-down
+
+---
 
 ---
 
