@@ -143,7 +143,8 @@ This view can be used as a foundation for further customer analysis or dashboard
 ---
 
 ## 📊 Power BI Dashboard
-<img width="1054" height="592" alt="picdash" src="https://github.com/user-attachments/assets/b43a248b-e21e-40fa-a984-cd77b29cc21e" />
+<img width="1058" height="595" alt="Picture1" src="https://github.com/user-attachments/assets/60a56263-c26a-46ee-9424-f867e1efbd9a" />
+
 
 A Power BI dashboard was built on top of `Sales.vCustomerSummaryReport` 
 to visualize customer segmentation and revenue insights.
